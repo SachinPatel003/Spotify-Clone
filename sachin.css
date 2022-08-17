@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+/* ---------------------------------------   navbar  ---------------- */
+.navbar ul{
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 40px;
+    list-style-type: none;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.navbar li{
+    margin: 8px;
+}
+.navbar img{
+    width: 30px;
+    margin: 0px 4px; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/*------------------------------------------------ center ---------------- */
+.container{
+    height: 390px;
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background:url(/bg.jpg);
+    background-size: cover;
+    background-position: 200px -100px;
+}
+.playList{
+    height: 35px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px ;
+    margin-top: 18px;
+    margin-left: 20px;  
+    display: flex; 
+    font-family:'Ubuntu', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+.playList img{
+    width: 20px;
+    border-radius: 30px;
+    margin: 5px 15px;
+}
+.playList i{
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* ----------------------------------------------  buttom ------------*/
+.buttom{
+    height: 95px;
+    background: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.buttom img{
+    width: 40PX;
+}   
+.buttom i{
+    margin: 6px 5px;
+    
+}   
+.musicGif{
+    position: absolute;
+    left: 20rem;
+    left: 8rem;
+
+}
+.musicGif img{
+    opacity: 0;
+
+}
+#progressBar{
+    width: 80vw;
+}
